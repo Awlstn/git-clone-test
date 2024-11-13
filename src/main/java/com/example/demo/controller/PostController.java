@@ -4,7 +4,7 @@ import com.example.demo.model.Post;
 import com.example.demo.service.PostService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
@@ -17,10 +17,10 @@ import java.util.UUID;
 @Slf4j
 public class PostController {
 
-    @GetMapping("/")
-    public String a(){
-        return "블로그 목록입니다.";
-    }
+//    @GetMapping("/")
+//    public String a(){
+//        return "블로그 목록입니다.";
+//    }
     /*
     @GetMapping("/list")
     public String postlist(){
