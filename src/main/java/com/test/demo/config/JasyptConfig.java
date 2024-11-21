@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.test.demo.config;
 
 
 import org.jasypt.encryption.StringEncryptor;

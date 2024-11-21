@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.test.demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;

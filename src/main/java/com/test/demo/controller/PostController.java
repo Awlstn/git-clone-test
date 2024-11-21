@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.test.demo.controller;
 
-import com.example.demo.model.Post;
-import com.example.demo.service.PostService;
+import com.test.demo.model.Post;
+import com.test.demo.service.PostService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 //import org.springframework.beans.factory.annotation.Autowired;

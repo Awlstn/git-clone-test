@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.test.demo;
 
-import com.example.demo.model.Post;
-import com.example.demo.repository.PostRepository;
+import com.test.demo.model.Post;
+import com.test.demo.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
