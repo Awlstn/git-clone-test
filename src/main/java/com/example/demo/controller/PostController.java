@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-// @RequestMapping("/posts") // url/posts
+@RequestMapping("/posts") // url/posts
 @RequiredArgsConstructor // final로 지정된 필드들의 생성자 주입을 자동으로 해줌
 @Slf4j
 public class PostController {
@@ -88,5 +88,11 @@ public class PostController {
     @GetMapping("/{postId}")
     public Post postDetail(@PathVariable String postId){
         return new Post(UUID.randomUUID(), "title1", "contents1", "", LocalDateTime.now());
+    }
+
+    @GetMapping("/test")
+    public Post test(@RequestHeader("Authorization") String token){
+        log.info("token : " + token);
+        return new Post(UUID.randomUUID(), "토큰 성공", "contents1", "", LocalDateTime.now());
     }
 }
